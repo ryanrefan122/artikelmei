@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Pribadi Senior Frontend Developer & UI/UX Designer - Menghadirkan antarmuka web modern, cepat, berestetika tinggi, dan berpusat pada pengguna.">
+  <meta name="keywords" content="Frontend Developer, UI/UX Designer, Portfolio, Web Developer Indonesia, HTML, CSS, JavaScript">
+  <meta name="author" content="Meiryan Refan">
+  <title>Meiryan Refan | Senior Frontend Developer & UI/UX Designer</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Background Ambient Glow Effects -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Meiryan Refan Beranda">
+        <span class="logo-mark">AP</span>
+        <span class="logo-text">Meiryan<strong>Refan</strong></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Keahlian</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Proyek</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & CTA) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Ganti Tema Tampilan" title="Ganti Tema Tampilan">
+          <span class="theme-icon sun-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">
+          <span>Rekrut Saya</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="menu-toggle" class="menu-toggle-btn" aria-label="Buka Menu Navigasi" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Spotlight 1: Status Pill -->
+          <div class="status-pill-wrapper">
+            <div class="status-pill" title="Status Ketersediaan Kerja">
+              <span class="status-indicator">
+                <span class="status-ping"></span>
+                <span class="status-dot"></span>
+              </span>
+              <span class="status-text">Tersedia untuk Posisi Full-Time & Proyek Baru</span>
+            </div>
+          </div>
+
+          <!-- Hero Headings -->
+          <h1 class="hero-title">
+            Membangun Pengalaman Digital yang <span class="gradient-text">Elegan</span> & Berkinerja Tinggi
+          </h1>
+
+          <p class="hero-subtitle">
+            Halo! Saya <strong>Meiryan Refan</strong>, seorang <strong>Senior Frontend Developer & UI/UX Designer</strong> dengan pengalaman 5+ tahun dalam menjembatani keindahan desain antarmuka dengan kode frontend yang cepat, bersih, dan berstandar industri.
+          </p>
+
+          <!-- Spotlight 2: Quick Highlights Badges -->
+          <div class="hero-quick-badges">
+            <span class="quick-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Frontend Architecture & Clean Code
+            </span>
+            <span class="quick-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Design System & UX Research
+            </span>
+            <span class="quick-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Core Web Vitals 95+ Optimized
+            </span>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Lihat Portofolio Proyek</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary">
+              <span>Jadwalkan Wawancara</span>
+            </a>
+
+            <!-- Quick Copy Email Button -->
+            <button id="quick-copy-email" class="btn-copy-chip" title="Klik untuk salin alamat email">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>alex.pratama.dev@email.com</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Spotlight 3: Visual Showcase Card -->
+        <div class="hero-visual">
+          <div class="hero-card-spotlight spotlight-card" data-spotlight>
+            <div class="profile-header">
+              <div class="profile-avatar">
+                <!-- SVG Avatar Portrait with Warm Modern Look -->
+                <div class="avatar-illustration">
+                  <svg viewBox="0 0 120 120" class="avatar-svg" aria-label="Ilustrasi Meiryan Refan">
+                    <defs>
+                      <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#E07A5F" />
+                        <stop offset="100%" stop-color="#F4A261" />
+                      </linearGradient>
+                      <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#2A2A32" />
+                        <stop offset="100%" stop-color="#18181C" />
+                      </linearGradient>
+                    </defs>
+                    <rect width="120" height="120" rx="60" fill="url(#bgGrad)" />
+                    <!-- Head & Body Silhouette -->
+                    <circle cx="60" cy="46" r="22" fill="url(#avatarGrad)" />
+                    <path d="M26 104 C26 78, 42 70, 60 70 C78 70, 94 78, 94 104 Z" fill="#E07A5F" opacity="0.85" />
+                    <!-- Glasses & Hair accents -->
+                    <rect x="42" y="42" width="14" height="10" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+                    <rect x="64" y="42" width="14" height="10" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+                    <line x1="56" y1="47" x2="64" y2="47" stroke="#FFFFFF" stroke-width="2.5" />
+                    <path d="M40 34 C50 24, 70 24, 80 34" stroke="#FAF8F5" stroke-width="4" stroke-linecap="round" fill="none" />
+                  </svg>
+                </div>
+                <div class="profile-meta">
+                  <h3 class="profile-name">Meiryan Refan, S.Kom</h3>
+                  <p class="profile-role">Sr. Frontend Engineer & UI Designer</p>
+                  <span class="profile-location">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    Jakarta, Indonesia (Willing to relocate/Remote)
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-stats-grid">
+              <div class="stat-mini-card">
+                <span class="stat-mini-val">5+</span>
+                <span class="stat-mini-label">Tahun Pengalaman</span>
+              </div>
+              <div class="stat-mini-card">
+                <span class="stat-mini-val">42+</span>
+                <span class="stat-mini-label">Proyek Selesai</span>
+              </div>
+              <div class="stat-mini-card">
+                <span class="stat-mini-val">99%</span>
+                <span class="stat-mini-label">Kepuasan Klien</span>
+              </div>
+            </div>
+
+            <!-- Floating Tech Badges on Spotlight Card -->
+            <div class="profile-tech-stack">
+              <span class="tech-tag highlight">HTML5 Semantik</span>
+              <span class="tech-tag highlight">Modern CSS3</span>
+              <span class="tech-tag highlight">Pure JavaScript ES6+</span>
+              <span class="tech-tag">UI/UX Figma</span>
+              <span class="tech-tag">Design System</span>
+              <span class="tech-tag">Web Accessibility</span>
+            </div>
+
+            <div class="profile-card-footer">
+              <div class="code-snippet-box">
+                <div class="code-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <code>const passion = "Crafting high-impact digital products";</code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ME SECTION ================= -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <!-- Section Header with Subtitle Spotlight -->
+        <div class="section-header text-center">
+          <span class="section-tag">Profil & Nilai Tambah</span>
+          <h2 class="section-title">Mengapa Saya Menjadi Aset Tepat untuk Tim Anda?</h2>
+          <p class="section-desc">
+            Saya mengintegrasikan logika teknis rekayasa web dengan kepekaan desain berpusat pada pengguna untuk membangun produk yang tidak hanya indah dipandang, tetapi juga terbukti menaikkan metrik bisnis.
+          </p>
+        </div>
+
+        <!-- Spotlight 1: Key Achievements Counters -->
+        <div class="metrics-grid">
+          <div class="metric-card spotlight-card" data-spotlight>
+            <div class="metric-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="metric-info">
+              <span class="metric-number" data-target="5">0</span><span class="metric-suffix">+</span>
+              <p class="metric-title">Tahun Pengalaman Profesional</p>
+              <p class="metric-sub">Dalam ekosistem frontend & product design skala enterprise.</p>
+            </div>
+          </div>
+
+          <div class="metric-card spotlight-card" data-spotlight>
+            <div class="metric-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="metric-info">
+              <span class="metric-number" data-target="42">0</span><span class="metric-suffix">+</span>
+              <p class="metric-title">Proyek Berhasil Diluncurkan</p>
+              <p class="metric-sub">Mulai dari landing page konversi tinggi hingga dashboard analitik kompleks.</p>
+            </div>
+          </div>
+
+          <div class="metric-card spotlight-card" data-spotlight>
+            <div class="metric-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <div class="metric-info">
+              <span class="metric-number" data-target="99">0</span><span class="metric-suffix">%</span>
+              <p class="metric-title">Kepuasan Stakeholder & Klien</p>
+              <p class="metric-sub">Komitmen pada deadline, ketepatan solusi, dan komunikasi proaktif.</p>
+            </div>
+          </div>
+
+          <div class="metric-card spotlight-card" data-spotlight>
+            <div class="metric-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div class="metric-info">
+              <span class="metric-number" data-target="98">0</span><span class="metric-suffix">/100</span>
+              <p class="metric-title">Rata-rata Skor Google Lighthouse</p>
+              <p class="metric-sub">Standar tinggi untuk Aksesibilitas, SEO, dan Kecepatan Laman Web.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spotlight 2: Dual Bio & Philosophy -->
+        <div class="about-grid">
+          <div class="about-bio-box spotlight-card" data-spotlight>
+            <h3 class="box-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              Filosofi Desain & Kode
+            </h3>
+            <p>
+              Bagi saya, website bukan sekadar deretan baris kode atau kanvas gambar, melainkan sebuah <strong>jembatan interaksi bisnis</strong>. Banyak proyek gagal karena developer dan designer memiliki kesenjangan komunikasi.
+            </p>
+            <p>
+              Dengan latar belakang ganda di bidang <em>Design Thinking</em> dan <em>Software Architecture</em>, saya memastikan setiap komponen UI dirancang dengan prinsip ergonomi pengguna (UI/UX) dan diterjemahkan ke kode murni yang ringan, terstruktur, tanpa ketergantungan library yang berlebihan.
+            </p>
+            <div class="bio-principles">
+              <div class="principle-item">
+                <strong>💡 User-Centric:</strong> Validasi kebutuhan pengguna nyata sebelum menulis satu baris kode.
+              </div>
+              <div class="principle-item">
+                <strong>⚡ Performance First:</strong> Optimasi rendering DOM, ukuran aset minimal, dan kecepatan respons tinggi.
+              </div>
+              <div class="principle-item">
+                <strong>♿ Universal Accessibility:</strong> Mengikuti standar WCAG 2.1 AA agar website dapat diakses oleh semua kalangan.
+              </div>
+            </div>
+          </div>
+
+          <!-- Spotlight 3: Experience & Education Timeline -->
+          <div class="timeline-container spotlight-card" data-spotlight>
+            <!-- Timeline Tabs -->
+            <div class="tab-nav" role="tablist">
+              <button class="tab-btn active" id="tab-exp-btn" role="tab" aria-selected="true" aria-controls="tab-exp">
+                Pengalaman Kerja
+              </button>
+              <button class="tab-btn" id="tab-edu-btn" role="tab" aria-selected="false" aria-controls="tab-edu">
+                Pendidikan & Sertifikasi
+              </button>
+            </div>
+
+            <!-- Tab Content: Experience -->
+            <div class="tab-panel active" id="tab-exp" role="tabpanel" aria-labelledby="tab-exp-btn">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2022 - Sekarang</div>
+                  <h4 class="timeline-role">Lead Frontend Engineer & UI Specialist</h4>
+                  <p class="timeline-company">Nusantara Digital Tech • Jakarta (Hybrid)</p>
+                  <p class="timeline-desc">Memimpin tim 6 developer, merancang Design System berskala perusahaan yang memangkas waktu rilis fitur baru hingga 35%, serta memantau kualitas performa frontend.</p>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2020 - 2022</div>
+                  <h4 class="timeline-role">Senior UI/UX & Web Developer</h4>
+                  <p class="timeline-company">Inovasi Kreasi Studio • Bandung</p>
+                  <p class="timeline-desc">Mengembangkan lebih dari 20 web aplikasi interaktif, memimpin riset usability testing, dan meningkatkan rata-rata skor konversi klien sebesar 28%.</p>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2018 - 2020</div>
+                  <h4 class="timeline-role">Frontend Web Developer</h4>
+                  <p class="timeline-company">Global Solusi Mandiri • Jakarta</p>
+                  <p class="timeline-desc">Membangun antarmuka web responsif berbasis HTML, CSS, dan vanilla JavaScript untuk portal e-commerce dan portal korporat.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab Content: Education & Certs -->
+            <div class="tab-panel" id="tab-edu" role="tabpanel" aria-labelledby="tab-edu-btn">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2023</div>
+                  <h4 class="timeline-role">Google Professional UX Design Certificate</h4>
+                  <p class="timeline-company">Coursera / Google Career Certificates</p>
+                  <p class="timeline-desc">Riset pengguna, pembuatan persona, wireframing, prototyping, dan usability testing mendalam.</p>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2021</div>
+                  <h4 class="timeline-role">W3Cx Web Accessibility Certified</h4>
+                  <p class="timeline-company">W3C & edX</p>
+                  <p class="timeline-desc">Spesialisasi standar kepatuhan aksesibilitas web internasional (WCAG 2.1).</p>
+                </div>
+
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2014 - 2018</div>
+                  <h4 class="timeline-role">Sarjana Komputer (S.Kom) - Teknik Informatika</h4>
+                  <p class="timeline-company">Universitas Indonesia • IPK 3.82 / 4.00 (Cum Laude)</p>
+                  <p class="timeline-desc">Fokus pada Interaksi Manusia & Komputer (HCI) serta Rekayasa Perangkat Lunak Web.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section class="skills-section section-padding bg-alt" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Kompetensi Teknis & Desain</span>
+          <h2 class="section-title">Keahlian Teruji yang Siap Diaplikasikan</h2>
+          <p class="section-desc">
+            Kombinasi mendalam antara arsitektur kode frontend murni tanpa beban dependensi dan metodologi desain produk mutakhir.
+          </p>
+        </div>
+
+        <!-- Spotlight 1: Category Filter Buttons -->
+        <div class="skills-filter-nav">
+          <button class="skill-filter-btn active" data-filter="all">Semua Keahlian</button>
+          <button class="skill-filter-btn" data-filter="frontend">Frontend Engineering</button>
+          <button class="skill-filter-btn" data-filter="design">UI/UX & Product Design</button>
+          <button class="skill-filter-btn" data-filter="architecture">Arsitektur & Optimasi</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Skill 1 -->
+          <div class="skill-card spotlight-card" data-category="frontend" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Pure JavaScript (ES6+)</h3>
+                <span class="skill-level">Tingkat Mahir • 95%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Manipulasi DOM berkinerja tinggi, asynchronous programming (Async/Await, Promises), Event Delegation, Functional Programming, dan Web APIs.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 95%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Async/Await</span>
+              <span>DOM Optimization</span>
+              <span>Web APIs</span>
+              <span>Modular Architecture</span>
+            </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="skill-card spotlight-card" data-category="frontend" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Modern CSS3 & Animations</h3>
+                <span class="skill-level">Tingkat Mahir • 98%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              CSS Grid tingkat lanjut, Flexbox, Custom Properties (Variables), Responsive Layouts, Fluid Typography, Micro-interactions, dan Animasi Keyframes mulus.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 98%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>CSS Grid & Flex</span>
+              <span>CSS Variables</span>
+              <span>Keyframe Motion</span>
+              <span>Mobile-First</span>
+            </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="skill-card spotlight-card" data-category="frontend" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Semantic HTML5 & SEO</h3>
+                <span class="skill-level">Tingkat Mahir • 96%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Struktur dokumen terstandarisasi, tag semantik yang ramah mesin pencari, integrasi Open Graph metadata, dan Rich Snippets Schema.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 96%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Semantic Elements</span>
+              <span>Technical SEO</span>
+              <span>Meta Tags</span>
+              <span>Schema.org</span>
+            </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="skill-card spotlight-card" data-category="design" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                  <path d="M2 2l7.586 7.586"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">UI/UX Design & Prototyping</h3>
+                <span class="skill-level">Tingkat Mahir • 92%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              User Journey Mapping, Information Architecture, Wireframing Low-to-High Fidelity, Interactive Prototyping, serta Usability Testing terukur.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 92%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Figma Pro</span>
+              <span>Design Tokens</span>
+              <span>User Journey</span>
+              <span>Wireframing</span>
+            </div>
+          </div>
+
+          <!-- Skill 5 -->
+          <div class="skill-card spotlight-card" data-category="design" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Design Systems Architecture</h3>
+                <span class="skill-level">Tingkat Mahir • 94%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Membangun komponen desain yang reusable, dokumentasi styleguide terpadu, sinkronisasi token desain antara tim produk dan developer.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 94%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Component Tokens</span>
+              <span>Atomic Design</span>
+              <span>Pattern Library</span>
+              <span>Style Guide</span>
+            </div>
+          </div>
+
+          <!-- Skill 6 -->
+          <div class="skill-card spotlight-card" data-category="architecture" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Aksesibilitas (WCAG 2.1 AA)</h3>
+                <span class="skill-level">Tingkat Mahir • 91%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Navigasi keyboard ramah pengguna difabel, ARIA roles & attributes tepat guna, rasio kontras warna standar, dan kompatibilitas pembaca layar (Screen Readers).
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 91%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>WAI-ARIA</span>
+              <span>Keyboard Trap</span>
+              <span>Color Contrast</span>
+              <span>Screen Readers</span>
+            </div>
+          </div>
+
+          <!-- Skill 7 -->
+          <div class="skill-card spotlight-card" data-category="architecture" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Performance & Core Web Vitals</h3>
+                <span class="skill-level">Tingkat Mahir • 96%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Optimasi LCP, FID/INP, CLS. Lazy loading gambar & skrip, minimasi render-blocking resources, dan kompresi aset untuk kecepatan maksimal.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 96%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Core Web Vitals</span>
+              <span>Lazy Loading</span>
+              <span>Lighthouse 95+</span>
+              <span>Asset Minification</span>
+            </div>
+          </div>
+
+          <!-- Skill 8 -->
+          <div class="skill-card spotlight-card" data-category="architecture" data-spotlight>
+            <div class="skill-header">
+              <div class="skill-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="18" cy="5" r="3"></circle>
+                  <circle cx="6" cy="12" r="3"></circle>
+                  <circle cx="18" cy="19" r="3"></circle>
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+              </div>
+              <div class="skill-title-wrap">
+                <h3 class="skill-name">Git, Workflow & Clean Code</h3>
+                <span class="skill-level">Tingkat Mahir • 94%</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Version control dengan Git branching model rapi, CI/CD pipelines, penulisan kode modular mandiri, serta dokumentasi teknis yang jelas untuk tim.
+            </p>
+            <div class="skill-progress-track">
+              <div class="skill-progress-bar" style="width: 94%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Git Flow</span>
+              <span>Code Review</span>
+              <span>Clean Architecture</span>
+              <span>Agile / Scrum</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section class="projects-section section-padding" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Portofolio Pilihan</span>
+          <h2 class="section-title">Hasil Karya Nyata Berdampak Terukur</h2>
+          <p class="section-desc">
+            Setiap proyek dikerjakan dengan pendekatan menyeluruh: membedah problem bisnis, mendesain solusi intuitif, dan mengeksekusinya menjadi kode yang tangguh.
+          </p>
+        </div>
+
+        <!-- Spotlight 1: Featured Case Study Card -->
+        <div class="featured-project spotlight-card" data-spotlight>
+          <div class="featured-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            PROYEK UTAMA / FLAGSHIP CASE STUDY
+          </div>
+
+          <div class="featured-grid">
+            <div class="featured-preview">
+              <!-- Interactive Visual Mockup (Pure CSS & SVG Dashboard) -->
+              <div class="mockup-window">
+                <div class="mockup-header">
+                  <span class="mockup-dot red"></span>
+                  <span class="mockup-dot yellow"></span>
+                  <span class="mockup-dot green"></span>
+                  <span class="mockup-url">https://finova-enterprise.app</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-sidebar">
+                    <div class="sidebar-item active"></div>
+                    <div class="sidebar-item"></div>
+                    <div class="sidebar-item"></div>
+                    <div class="sidebar-item"></div>
+                  </div>
+                  <div class="mockup-content">
+                    <div class="mockup-top-stats">
+                      <div class="mockup-stat-card"><span class="mockup-bar w70"></span></div>
+                      <div class="mockup-stat-card"><span class="mockup-bar w90"></span></div>
+                      <div class="mockup-stat-card"><span class="mockup-bar w50"></span></div>
+                    </div>
+                    <div class="mockup-chart">
+                      <!-- SVG Mini Chart -->
+                      <svg viewBox="0 0 300 90" class="chart-svg">
+                        <path d="M0,70 Q40,30 80,50 T160,20 T240,40 T300,10 L300,90 L0,90 Z" fill="rgba(224, 122, 95, 0.2)" />
+                        <path d="M0,70 Q40,30 80,50 T160,20 T240,40 T300,10" fill="none" stroke="#E07A5F" stroke-width="3" />
+                      </svg>
+                    </div>
+                    <div class="mockup-table">
+                      <div class="mockup-row header"></div>
+                      <div class="mockup-row"></div>
+                      <div class="mockup-row"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="featured-details">
+              <span class="project-category">Fintech & SaaS Platform</span>
+              <h3 class="featured-title">Finova Enterprise Financial Dashboard</h3>
+              <p class="featured-desc">
+                Platform manajemen keuangan berbasis web untuk perusahaan multinasional. Menyederhanakan visualisasi jutaan transaksi harian dengan rendering tabel virtual dan grafik interaktif instan tanpa lag.
+              </p>
+
+              <!-- Real Business Metrics Impact -->
+              <div class="project-impact-box">
+                <div class="impact-item">
+                  <span class="impact-val">+140%</span>
+                  <span class="impact-lbl">Kecepatan Pengambilan Keputusan</span>
+                </div>
+                <div class="impact-item">
+                  <span class="impact-val">0.6s</span>
+                  <span class="impact-lbl">LCP Load Time (Turun 65%)</span>
+                </div>
+                <div class="impact-item">
+                  <span class="impact-val">100/100</span>
+                  <span class="impact-lbl">Lighthouse Accessibility</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="tech-tag">Pure JavaScript ES6+</span>
+                <span class="tech-tag">Custom CSS Design System</span>
+                <span class="tech-tag">Figma Design System</span>
+                <span class="tech-tag">SVG Data Visualization</span>
+                <span class="tech-tag">ARIA WCAG 2.1</span>
+              </div>
+
+              <div class="featured-actions">
+                <button class="btn btn-primary btn-open-modal" data-project="finova">
+                  <span>Baca Studi Kasus Lengkap</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <a href="#contact" class="btn btn-secondary">
+                  <span>Diskusikan Proyek Serupa</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spotlight 2: Filter Tabs for Projects Grid -->
+        <div class="projects-filter-bar">
+          <div class="filter-group">
+            <button class="project-filter-btn active" data-filter="all">Semua Proyek (6)</button>
+            <button class="project-filter-btn" data-filter="frontend">Frontend Web App</button>
+            <button class="project-filter-btn" data-filter="design">UI/UX Case Study</button>
+            <button class="project-filter-btn" data-filter="system">Design System</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card spotlight-card" data-category="frontend" data-spotlight>
+            <div class="project-thumb">
+              <div class="thumb-mockup ecommerce-thumb">
+                <div class="thumb-header">
+                  <span class="circle-dot"></span><span class="circle-dot"></span><span class="circle-dot"></span>
+                </div>
+                <div class="thumb-preview-elements">
+                  <div class="hero-banner-sim"></div>
+                  <div class="grid-sim">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+              <span class="project-badge">E-Commerce Architecture</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Vanilla JS</span>
+                <span>CSS Grid</span>
+                <span>Responsive</span>
+              </div>
+              <h3 class="project-title">Lumina Artisan: Luxury E-Commerce</h3>
+              <p class="project-summary">
+                Toko daring modern dengan fitur filter multi-atribut instan, keranjang belanja lokal tanpa reload, dan checkout flow yang dioptimasi untuk rasio konversi tinggi.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-link btn-open-modal" data-project="lumina">
+                  Detail Studi Kasus
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card spotlight-card" data-category="design" data-spotlight>
+            <div class="project-thumb">
+              <div class="thumb-mockup health-thumb">
+                <div class="thumb-header">
+                  <span class="circle-dot"></span><span class="circle-dot"></span><span class="circle-dot"></span>
+                </div>
+                <div class="thumb-preview-elements">
+                  <div class="pill-sim"></div>
+                  <div class="telemed-card-sim">
+                    <div class="avatar-sim"></div>
+                    <div class="lines-sim"><span></span><span></span></div>
+                  </div>
+                </div>
+              </div>
+              <span class="project-badge">UI/UX Research & App</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>UX Research</span>
+                <span>Figma Prototype</span>
+                <span>Usability Testing</span>
+              </div>
+              <h3 class="project-title">CarePulse: Telemedicine & Lab App</h3>
+              <p class="project-summary">
+                Riset end-to-end aplikasi kesehatan untuk kelompok usia lanjut. Melalui 15 sesi wawancara pengguna, menghasilkan desain antarmuka ramah penglihatan dengan peningkatan SUS score ke 88.5.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-link btn-open-modal" data-project="carepulse">
+                  Detail Studi Kasus
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card spotlight-card" data-category="system" data-spotlight>
+            <div class="project-thumb">
+              <div class="thumb-mockup designsystem-thumb">
+                <div class="thumb-header">
+                  <span class="circle-dot"></span><span class="circle-dot"></span><span class="circle-dot"></span>
+                </div>
+                <div class="thumb-preview-elements">
+                  <div class="tokens-row">
+                    <span class="token-color c1"></span>
+                    <span class="token-color c2"></span>
+                    <span class="token-color c3"></span>
+                  </div>
+                  <div class="button-sim-group">
+                    <span class="btn-sim primary"></span>
+                    <span class="btn-sim outline"></span>
+                  </div>
+                </div>
+              </div>
+              <span class="project-badge">Enterprise Infrastructure</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Design Tokens</span>
+                <span>Atomic CSS</span>
+                <span>Accessible Components</span>
+              </div>
+              <h3 class="project-title">Aether Design System</h3>
+              <p class="project-summary">
+                Sistem desain menyeluruh dengan 45+ komponen UI teruji aksesibilitas, 120+ variabel token warna dan spasi, dipakai oleh 14 tim produk untuk menjaga konsistensi visual brand.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-link btn-open-modal" data-project="aether">
+                  Detail Studi Kasus
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 4 -->
+          <article class="project-card spotlight-card" data-category="frontend" data-spotlight>
+            <div class="project-thumb">
+              <div class="thumb-mockup kanban-thumb">
+                <div class="thumb-header">
+                  <span class="circle-dot"></span><span class="circle-dot"></span><span class="circle-dot"></span>
+                </div>
+                <div class="thumb-preview-elements">
+                  <div class="kanban-columns">
+                    <div class="col-sim"><span class="card-item"></span><span class="card-item"></span></div>
+                    <div class="col-sim"><span class="card-item"></span></div>
+                    <div class="col-sim"><span class="card-item"></span></div>
+                  </div>
+                </div>
+              </div>
+              <span class="project-badge">Productivity Web App</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Vanilla JS Drag & Drop</span>
+                <span>Local Storage</span>
+                <span>CSS Variables</span>
+              </div>
+              <h3 class="project-title">TaskFlow: Interactive Agile Kanban</h3>
+              <p class="project-summary">
+                Aplikasi manajemen tugas drag-and-drop murni dengan zero third-party libraries. Performa 60fps animasi perpindahan kartu dan sinkronisasi status otomatis.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-link btn-open-modal" data-project="taskflow">
+                  Detail Studi Kasus
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 5 -->
+          <article class="project-card spotlight-card" data-category="design" data-spotlight>
+            <div class="project-thumb">
+              <div class="thumb-mockup booking-thumb">
+                <div class="thumb-header">
+                  <span class="circle-dot"></span><span class="circle-dot"></span><span class="circle-dot"></span>
+                </div>
+                <div class="thumb-preview-elements">
+                  <div class="flight-sim">
+                    <span class="ticket-bar"></span>
+                    <span class="seat-grid"></span>
+                  </div>
+                </div>
+              </div>
+              <span class="project-badge">Mobile-First UX</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Mobile UX</span>
+                <span>Figma Motion</span>
+                <span>Conversion Audit</span>
+              </div>
+              <h3 class="project-title">WanderLust: Travel Booking Redesign</h3>
+              <p class="project-summary">
+                Redesain komprehensif alur pemesanan tiket penerbangan dan hotel. Mengurangi langkah checkout dari 7 step menjadi 3 step simpel, memangkas cart abandonment rate sebesar 32%.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-link btn-open-modal" data-project="wanderlust">
+                  Detail Studi Kasus
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 6 -->
+          <article class="project-card spotlight-card" data-category="frontend" data-spotlight>
+            <div class="project-thumb">
+              <div class="thumb-mockup audio-thumb">
+                <div class="thumb-header">
+                  <span class="circle-dot"></span><span class="circle-dot"></span><span class="circle-dot"></span>
+                </div>
+                <div class="thumb-preview-elements">
+                  <div class="equalizer-sim">
+                    <span class="eq-b b1"></span>
+                    <span class="eq-b b2"></span>
+                    <span class="eq-b b3"></span>
+                    <span class="eq-b b4"></span>
+                    <span class="eq-b b5"></span>
+                  </div>
+                </div>
+              </div>
+              <span class="project-badge">Web Audio & Canvas</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Web Audio API</span>
+                <span>HTML5 Canvas</span>
+                <span>Modular JS</span>
+              </div>
+              <h3 class="project-title">SoundWave: Real-Time Audio Visualizer</h3>
+              <p class="project-summary">
+                Aplikasi audio visualizer interaktif yang merender frekuensi suara langsung di canvas HTML5 dengan akselerasi hardware dan latensi ultra rendah.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-link btn-open-modal" data-project="soundwave">
+                  Detail Studi Kasus
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact-section section-padding bg-alt" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Hubungi Saya</span>
+          <h2 class="section-title">Mari Bicarakan Peluang Kolaborasi Hebat</h2>
+          <p class="section-desc">
+            Sedang mencari Senior Frontend Developer yang memahami bisnis & estetika? Saya siap bergabung untuk mempercepat pertumbuhan produk Anda.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Spotlight 1: HR & Recruiter Fast-Action Card -->
+          <div class="contact-info-col">
+            <div class="hr-spotlight-card spotlight-card" data-spotlight>
+              <div class="hr-badge">
+                <span class="pulse-dot"></span>
+                <span>HR & RECRUITER FAST TRACK</span>
+              </div>
+              <h3 class="hr-title">Siap untuk Tahap Wawancara & Diskusi Teknis</h3>
+              <p class="hr-text">
+                Saya menyambut baik undangan interview untuk posisi <strong>Senior Frontend Developer</strong>, <strong>UI/UX Engineer</strong>, atau <strong>Lead Frontend Specialist</strong> (Remote, On-site Jakarta, atau Hybrid).
+              </p>
+
+              <!-- Quick Communication Cards -->
+              <div class="contact-methods">
+                <!-- Direct Email with One-Click Copy -->
+                <div class="method-card">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Email Langsung (Respon &lt; 24 Jam)</span>
+                    <span class="method-value" id="email-text">alex.pratama.dev@email.com</span>
+                  </div>
+                  <button id="copy-email-btn" class="method-action-btn" title="Salin Email ke Clipboard">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span>Salin</span>
+                  </button>
+                </div>
+
+                <!-- WhatsApp / Phone -->
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="method-card linkable">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">WhatsApp Cepat</span>
+                    <span class="method-value">+62 812-3456-7890</span>
+                  </div>
+                  <span class="external-arrow">↗</span>
+                </a>
+
+                <!-- LinkedIn Profile -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="method-card linkable">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">LinkedIn Profesional</span>
+                    <span class="method-value">linkedin.com/in/alexpratama</span>
+                  </div>
+                  <span class="external-arrow">↗</span>
+                </a>
+              </div>
+
+              <!-- Resume / CV Download Card -->
+              <div class="resume-download-box">
+                <div class="resume-info">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="12" y1="18" x2="12" y2="12"></line>
+                    <line x1="9" y1="15" x2="15" y2="15"></line>
+                  </svg>
+                  <div>
+                    <strong>Curriculum Vitae (CV) ATS-Friendly</strong>
+                    <p>Format PDF Terkini • Ukuran 240 KB</p>
+                  </div>
+                </div>
+                <button id="download-cv-btn" class="btn btn-secondary btn-sm">
+                  <span>Unduh CV</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Spotlight 2: Interactive Contact Form -->
+          <div class="contact-form-col">
+            <div class="form-wrapper spotlight-card" data-spotlight>
+              <h3 class="form-title">Kirim Pesan Langsung</h3>
+              <p class="form-subtitle">Isi formulir di bawah ini dan saya akan membalas ke email Anda dalam hitungan jam.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Nama Lengkap <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Contoh: Budi Santoso" required>
+                    <span class="error-feedback" id="name-error"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email" class="form-label">Alamat Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="nama@perusahaan.com" required>
+                    <span class="error-feedback" id="email-error"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="company" class="form-label">Nama Perusahaan / Organisasi (Opsional)</label>
+                  <input type="text" id="company" name="company" class="form-control" placeholder="PT Teknologi Maju Sejahtera">
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Tujuan Komunikasi <span class="required">*</span></label>
+                  <select id="subject" name="subject" class="form-control form-select" required>
+                    <option value="" disabled selected>Pilih salah satu keperluan...</option>
+                    <option value="recruitment">Tawaran Pekerjaan Full-Time (HRD / Recruiter)</option>
+                    <option value="freelance">Proyek Pengembangan Web / Kontrak</option>
+                    <option value="consultation">Konsultasi UI/UX & Design System</option>
+                    <option value="other">Lainnya / Berkenalan</option>
+                  </select>
+                  <span class="error-feedback" id="subject-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Pesan / Detail Kebutuhan <span class="required">*</span></label>
+                  <textarea id="message" name="message" rows="5" class="form-control form-textarea" placeholder="Jelaskan secara singkat mengenai kebutuhan peran, waktu pengerjaan, atau topik diskusi Anda..." required></textarea>
+                  <span class="error-feedback" id="message-error"></span>
+                </div>
+
+                <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                  <span class="btn-text">Kirim Pesan Sekarang</span>
+                  <span class="spinner" aria-hidden="true"></span>
+                  <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Form Success State -->
+              <div id="form-success-state" class="form-success-state" style="display: none;">
+                <div class="success-icon-wrap">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <h4>Pesan Berhasil Terkirim!</h4>
+                <p>Terima kasih telah menghubungi saya. Saya telah menerima notifikasi pesan Anda dan akan merespon sesegera mungkin.</p>
+                <button type="button" id="reset-form-btn" class="btn btn-secondary btn-sm">Kirim Pesan Baru</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-mark">AP</span>
+            <span class="logo-text">Alex<strong>Pratama</strong></span>
+          </a>
+          <p class="footer-motto">
+            Merancang antarmuka web yang menggabungkan estetika desain intuitif dengan performa kode frontend berstandar industri.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-nav-col">
+            <span class="footer-col-title">Navigasi</span>
+            <ul>
+              <li><a href="#hero">Beranda</a></li>
+              <li><a href="#about">Tentang & Pengalaman</a></li>
+              <li><a href="#skills">Keahlian Teknis</a></li>
+              <li><a href="#projects">Portofolio Proyek</a></li>
+              <li><a href="#contact">Kontak Rekrutmen</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav-col">
+            <span class="footer-col-title">Jejaring Sosial</span>
+            <ul>
+              <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a></li>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn Connect ↗</a></li>
+              <li><a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble Portfolio ↗</a></li>
+              <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter / X ↗</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Meiryan Refan. Dirancang & dikembangkan murni menggunakan <strong>HTML, CSS & Vanilla JavaScript</strong>.
+        </p>
+        <button id="scroll-to-top" class="scroll-top-btn" aria-label="Kembali ke atas layar">
+          <span>Ke Atas</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= PROJECT DETAIL MODAL ================= -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <div class="modal-content spotlight-card" data-spotlight>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Tutup Dialog Proyek">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="modal-body" id="modal-body-content">
+          <!-- Dynamic Content rendered by script.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
